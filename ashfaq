@@ -1,0 +1,31 @@
+<script>
+
+function Pattern(n)
+{
+	
+	var i, j, k;
+	for (i = 1; i <= n; i++) {
+
+		for (j = 1, k = i; j <= i; j++, k--) {
+
+			if (k % 2 == 0) {
+
+				document.write( j);
+			}
+			else {
+				
+				document.write("*");
+			}
+		}
+		document.write("<br>");
+	}
+}
+
+
+
+var n = 5;
+
+Pattern(n);
+
+</script>
+
