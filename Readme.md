@@ -35,7 +35,7 @@ Note: You can even write 1 function/method which accepts hardcoded array and ret
 Test case 1:
 n=[1,2,3,1,4,2]
 
-output=[1,2,3,4,5,6]
+output=[1,2,3,5,4,6]
 
 
 Test case 2:
